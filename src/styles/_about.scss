@@ -1,0 +1,31 @@
+#about{
+  .about-profile-pic{
+    img{
+      max-block-size: 200px;
+      border-radius: 100px;
+      
+    }
+  }
+  .icon-grid{
+    width: 100%;
+  }
+  .icon-card{
+    height: 60px;
+    width: 60px;
+  }
+  .devicon{
+    height: 50px;
+  }
+  ul{
+    padding: 0;
+  }
+  p{
+    text-align: center;
+  }
+  svg{
+    fill: black;
+  }
+  #skills li{
+    text-align: center;
+  }
+}
