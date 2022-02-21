@@ -3,18 +3,23 @@
     img{
       max-block-size: 200px;
       border-radius: 100px;
-      
+      animation: rotate 5s 3;
+    }
+    @keyframes rotate{
+      50% {transform: rotate(360deg);}
     }
   }
   .icon-grid{
     width: 100%;
   }
-  .icon-card{
-    height: 60px;
-    width: 60px;
-  }
   .devicon{
     height: 50px;
+  }
+  .icon-card{
+    margin: 1rem;
+  }
+  .icon-card:hover{
+    transform: scale(1.5)
   }
   ul{
     padding: 0;
@@ -27,5 +32,28 @@
   }
   #skills li{
     text-align: center;
+  }
+}
+
+#interests{
+  li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    height: 4rem;
+  }
+  .interest-start{
+    color: $green;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .interest-info{
+    text-align: start;
+    align-items: center;
+  }
+  span{
+    font-size: 2rem;
+    color: $green;
   }
 }

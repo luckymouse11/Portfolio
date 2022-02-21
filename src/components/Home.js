@@ -8,7 +8,9 @@ const Home = () => {
       <h2>
         Hi! My name is 
         <br />
+        <br />
         <span>Victor Yoke Loong Liew, </span>
+        <br />
         <br/>
         I am a full stack Software Engineer.
       </h2>

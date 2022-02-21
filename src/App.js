@@ -16,8 +16,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Home />
-        <Projects />
         <About />
+        <Projects />
         <Contact />
       </BrowserRouter>
     </div>
