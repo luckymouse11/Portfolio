@@ -8,7 +8,7 @@ const Contact = () => {
       <ul>
         <li>
           <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-email-interface-kiranshastry-gradient-kiranshastry.png"/>
-          <a href="mailto:victorliew0711@gmail.com">victorliew0711@gmail.com</a>
+          <a href="mailto:liewvyl@gmail.com">liewvyl@gmail.com</a>
         </li>
         <li>
           <img src="https://img.icons8.com/nolan/256/linkedin.png"/>

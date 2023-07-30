@@ -1,5 +1,9 @@
 #contact{
+  height: 90vh;
   img{
     height: 50px;
+  }
+  a:hover{
+    color: $green;
   }
 }

@@ -17,12 +17,15 @@ nav{
   top: 0;
   width: 100%;
   background-color: $black;
-  .nav-link{
-    color: $white;
-  }
   .nav-link:hover{
     color: $green;
+    transform: scale(1.5);
   }
+}
+
+a {
+  text-decoration: none;
+  color: $white;
 }
 
 ul li{
@@ -37,15 +40,6 @@ ul{
 
 span{
   color: $green;
-}
-
-a{
-  text-decoration: none;
-  color: $white;
-}
-
-a:hover{
-  transform: scale(1.5)
 }
 
 #top{
@@ -63,6 +57,3 @@ a:hover{
   margin: 6em 2em;
 }
 
-#contact{
-  height: 90vh;
-}

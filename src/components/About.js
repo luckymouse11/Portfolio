@@ -7,7 +7,7 @@ const About = () => {
       <h1 className="mt-3">ABOUT ME</h1>
       <div className="mb-3">
         <div className="about-profile-pic">
-          <img src="https://res.cloudinary.com/yl/image/upload/v1635456338/sneakers/IMG_20211004_234507_581_hde86d.webp" alt="Victor" />
+          <img src="https://res.cloudinary.com/yl/image/upload/v1635456338/IMG_20211004_234507_581_hde86d.webp" alt="Victor" />
         </div>
         <p>I initially embarked on the self taught route with SQL and Python, but felt I needed more direction and to accelerate the learning process by enrolling in the Software Engineering Immersive with General Assembly.
         Driven by a need to understand how things work, I am a highly motivated learner with an adaptable mindset and a fascination for technology.
@@ -50,25 +50,31 @@ const About = () => {
                 Bootstrap
               </div>
             </div>
+            <div className="col-12">
+              <div className="icon-card d-flex flex-column">
+                <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+                React
+              </div>
+            </div>
           </div>
           <br />
           <br />
           <h3>BACKEND</h3>
           <div className="container">
             <div className="row">
-              <div className="col-4">
+              <div className="col-12">
                 <div className="icon-card d-flex flex-column">
                   <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="Node.js"/>
                   Node.js
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-6">
                 <div className="icon-card d-flex flex-column">
                   <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" />
                   Express
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-6">
                 <div className="icon-card d-flex flex-column">
                   <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" alt="MongoDB" />
                   MongoDB
@@ -82,7 +88,7 @@ const About = () => {
               </div>
               <div className="col-4">
                 <div className="icon-card d-flex flex-column">
-                  <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" alt="Django" />
+                  <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" />
                   Django
                 </div>
               </div>
